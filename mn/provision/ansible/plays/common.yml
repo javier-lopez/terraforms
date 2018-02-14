@@ -1,0 +1,6 @@
+- hosts: all
+  roles:
+    - { role: facts,
+        tags: [ 'common', 'facts' ] }
+    - { role: apt-proxy-client,
+        tags: [ 'common', 'apt-proxy-client' ] }

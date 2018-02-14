@@ -1,0 +1,4 @@
+- import_playbook: plays/common.yml
+  when: skip_common is not defined or skip_common == false
+- import_playbook: plays/sip.yml
+  when: skip_sip is not defined or skip_sip == false

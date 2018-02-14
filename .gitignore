@@ -1,2 +1,4 @@
 .terraform
 *.tfstate*
+*.retry
+.vault_pass.txt

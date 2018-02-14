@@ -1,0 +1,7 @@
+--id sip:{{vault_sip_username}}@{{sip_registar}}
+--registrar sip:{{sip_registar}}
+--username {{sip_username}}
+--password {{vault_sip_password}}
+--realm {{sip_realm}}
+--null-audio
+--auto-play
