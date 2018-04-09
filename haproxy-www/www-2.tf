@@ -11,7 +11,7 @@ resource "digitalocean_droplet" "www-2" {
 connection {
       user = "root"
       type = "ssh"
-      private_key = "${file(var.pvt_key)}"
+      private_key = "${file(var.private_key)}"
       timeout = "2m"
   }
 
