@@ -16,7 +16,7 @@ resource "aws_spot_instance_request" "blender" {
     wait_for_fulfillment = true
     #instance_interruption_behaviour = "hibernate"
 
-    key_name  = "blender-key"
+    key_name      = "blender-key"
     vpc_security_group_ids = ["${aws_security_group.blender-sec-group.id}"]
 
     timeouts {
